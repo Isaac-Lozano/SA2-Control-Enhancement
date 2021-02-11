@@ -1,0 +1,15 @@
+[package]
+name = "sa2_button_mod"
+version = "0.1.0"
+authors = ["Isaac Lozano <Isaac-Lozano@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "sa2_button_mod"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.winapi]
+version = "0.3.6"
+features = ["psapi", "memoryapi", "processthreadsapi"]
